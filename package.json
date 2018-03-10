@@ -1,0 +1,16 @@
+{
+  "name": "bamazon",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "bamazonCustomer.js"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^5.0.1",
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.2"
+  }
+}
