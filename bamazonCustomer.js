@@ -101,7 +101,7 @@ function buysomething(product, quantity) {
     [quantity, product.item_id],
     function(err, res) {
       // Let the user know the purchase was successful, re-run loadProducts
-      console.log("\nYou purchased " + quantity + " " + product.product_name + "'s!\n");
+      console.log("\nYou purchased " + quantity + " " + product.product_name + "'s for $" + quantity * product.price + ".\n");
       show_tabel();
     }
   );
