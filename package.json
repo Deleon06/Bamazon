@@ -7,10 +7,21 @@
   },
   "dependencies": {
     "console.table": "^0.10.0",
-    "dotenv": "^5.0.1",
     "inquirer": "^5.1.0",
-    "mysql": "^2.15.0",
-    "mysql2": "^1.5.2",
-    "sequelize": "^4.35.2"
-  }
+    "mysql": "^2.15.0"
+  },
+  "main": "bamazonCustomer.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deleon06/Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deleon06/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Deleon06/Bamazon#readme",
+  "description": ""
 }
